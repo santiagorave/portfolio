@@ -2,8 +2,11 @@
 * {
     margin:0;
     padding:0;
-    background-color: #1d2c33;
     font-family: 'Quicksand', sans-serif;
+}
+body {
+  background-color: #1d2c33;
+
 }
 
 @media (min-width: 200px) {
@@ -30,6 +33,7 @@
       
       .navbar .menu-items {
         display: flex;
+        background-color: #0e2431;
       }
       
       .navbar .nav-container li {
@@ -149,16 +153,25 @@
       .nav-container input[type="checkbox"]:checked ~ .logo{
         display: none;
       }
+      .banner-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 3vh;
+      }
 
       .banner {
         display: flex;
         justify-content: center;
+        flex-direction: column-reverse;
+        row-gap: 5vh;
         padding-bottom: 3vh;
+        width: 90%;
+
         >article{
-        width: 80%;
+        width: 90%;
         display: flex;
         flex-direction: column;
-        row-gap: 2vh;
+        row-gap: 3vh;
         button{
           background-color: #00d1c7;
           border: none;
@@ -197,6 +210,76 @@
 
       .content {
         width: 80%;
+      }
+      .about {
+        display: none;
+      }
+      .about,.skills,.experience {
+        h2{
+          color: whitesmoke;
+          span {
+            color: #00d1c7;
+          }
+        }
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    
+
+        li{
+          list-style: none;
+          display: flex;
+          &:last-child{
+            display: none;
+          }
+       
+          // span{
+          // }
+          a{
+            color: #00d1c7;
+            i{
+              font-size: 25px;
+            }
+          }
+        }
+      }
+      .skills {
+        display: flex;
+        flex-direction:column;
+        row-gap: 1vh;
+        .gallery-section {
+          color: white;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          row-gap: 2vh;
+        }
+        .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 3vh;
+        }
+        figure{
+          background-color: #27363d;
+          width: 15vh;
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          row-gap: 1vh;
+          border-radius: 15px;
+          img{
+            width: 7vh;
+            height: 7vh;
+          }
+          figcaption {
+            color: white;
+          }
+        }
       }
 
     

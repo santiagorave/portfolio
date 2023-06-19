@@ -29,9 +29,19 @@ function HeaderComponent() {
                     <li><a href="#">05. Contact</a></li>
                 </ul>
             </nav>
+            <section className="banner-container">
+
             <section className="banner">
+                        <ul>
+                            <li><a href="#"><i className="fa-brands fa-github"></i></a></li>
+                            <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i className="fa-solid fa-envelope"></i></a></li>
+                            <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+                            <li><span>asd</span></li>
+                        </ul>
                 <article>
                     <aside className="banner-main">
+                       
                         <aside>
                         <p>Hi, I'm Santiago</p>
                         <h1>Software Developer</h1>
@@ -43,6 +53,7 @@ function HeaderComponent() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt repellat architecto. Maiores, ducimus! Voluptatibus.</p>
                     <button>Contact Me</button>
                 </article>
+            </section>
             </section>
         </>
     )
