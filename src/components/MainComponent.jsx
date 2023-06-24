@@ -127,11 +127,32 @@ function MainComponent() {
                     </section>
                     <section className="experience">
                         <h2><span>04.</span> Working Career</h2>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                        <article className="timeline">
+                            <aside className="containerCW c-left">
+                                <img src="/src/assets/react.svg" alt="" />
+                                <aside className="titles">
+                                    <h2>Avianca</h2>
+                                    <small>2021-2023</small>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
+                                </aside>
+                            </aside>
+                            <aside className="containerCW c-right">
+                            <img src="/src/assets/react.svg" alt="" />
+                                <aside className="titles">
+                                    <h2>Avianca</h2>
+                                    <small>2021-2023</small>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
+                                </aside>
+                            </aside>
+                            <aside className="containerCW c-left">
+                            <img src="/src/assets/react.svg" alt="" />
+                                <aside className="titles">
+                                    <h2>Avianca</h2>
+                                    <small>2021-2023</small>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
+                                </aside>
+                            </aside>
+                        </article>
                     </section>
                     <section className="contact">
 

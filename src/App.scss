@@ -29,6 +29,8 @@ body {
         justify-content: space-between;
         align-items: center;
         height: 62px;
+        z-index: 20;
+
       }
       
       .navbar .menu-items {
@@ -197,10 +199,27 @@ body {
             color: whitesmoke;
             font-size: 25px;
           }
-          h1{
+          span{
             font-size: 15px;
+            display: block;
             color: #00d1c7;
+            white-space: nowrap;
+            border-radius: 4px solid;
+            font-family: monospace;
+            width: 18ch;
+            animation: typing 2s steps(18), blink .5s infinite step-end alternate;
+            overflow: hidden;
           }
+          @keyframes typing {
+              from {
+                width: 0;
+              }
+          }
+          @keyframes blink {
+            50% {
+              border-color: transparent;
+            }
+        }
         }
       }
       .container-content {
@@ -280,6 +299,51 @@ body {
             color: white;
           }
         }
+      }
+      .timeline {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 6px;
+          height: 100%;
+          background: #00d1c7;
+          margin-left: -15px;
+          z-index: -4;
+        }
+      }
+      .containerCW {
+        background-color: #27363d;
+        position: relative;
+        color: white;
+        border-radius: 5px;
+        padding: 2vh;
+        margin-left: 20px;
+        .titles{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        row-gap: 1vh;
+        padding-bottom: 1vh;
+        }
+        img {
+          position: absolute;
+          width: 25px;
+          height: 25px;
+          padding: 1vh;
+          // top: 32px;
+          left: -52px;
+          background-color: #27363d;
+          border-radius: 50%;
+        }
+  
+      }
+      .experience {
+          display: flex;
+          flex-direction: column;
+          row-gap: 4vh;
       }
 
     

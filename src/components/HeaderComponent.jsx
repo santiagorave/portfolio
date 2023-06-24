@@ -40,11 +40,10 @@ function HeaderComponent() {
                             <li><span>asd</span></li>
                         </ul>
                 <article>
-                    <aside className="banner-main">
-                       
+                    <aside className="banner-main">            
                         <aside>
                         <p>Hi, I'm Santiago</p>
-                        <h1>Software Developer</h1>
+                        <span>Software Developer</span>
                         </aside>
                         <figure>
                             <img src="/src/assets/img/me.jpeg" alt="me" />
