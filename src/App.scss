@@ -28,7 +28,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 62px;
+        height: 100%;
         z-index: 20;
 
       }
@@ -36,6 +36,8 @@ body {
       .navbar .menu-items {
         display: flex;
         background-color: #0e2431;
+        height: 100%;
+
       }
       
       .navbar .nav-container li {
@@ -303,6 +305,7 @@ body {
       .timeline {
         display: flex;
         flex-direction: column;
+        position: relative;
         row-gap: 2vh;
         &::after {
           content: '';
@@ -330,12 +333,16 @@ body {
         }
         img {
           position: absolute;
-          width: 25px;
-          height: 25px;
-          padding: 1vh;
+          width: 40px;
+          height: 40px;
+          padding: 2px;
+
+          aspect-ratio: 4/3;
+          object-fit: contain;
+          // padding: 1vh;
           // top: 32px;
           left: -52px;
-          background-color: #27363d;
+          background-color: whitesmoke;
           border-radius: 50%;
         }
   

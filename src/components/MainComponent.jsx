@@ -129,7 +129,7 @@ function MainComponent() {
                         <h2><span>04.</span> Working Career</h2>
                         <article className="timeline">
                             <aside className="containerCW c-left">
-                                <img src="/src/assets/react.svg" alt="" />
+                                <img src="/src/assets/Avianca_Logo.png" alt="Avianca" />
                                 <aside className="titles">
                                     <h2>Avianca</h2>
                                     <small>2021-2023</small>
@@ -137,18 +137,18 @@ function MainComponent() {
                                 </aside>
                             </aside>
                             <aside className="containerCW c-right">
-                            <img src="/src/assets/react.svg" alt="" />
+                            <img src="/src/assets/cala.png" alt="" />
                                 <aside className="titles">
-                                    <h2>Avianca</h2>
-                                    <small>2021-2023</small>
+                                    <h2>Cala Analytics</h2>
+                                    <small>2020-2021</small>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
                                 </aside>
                             </aside>
                             <aside className="containerCW c-left">
-                            <img src="/src/assets/react.svg" alt="" />
+                            <img src="/src/assets/hc.jpg" alt="" />
                                 <aside className="titles">
-                                    <h2>Avianca</h2>
-                                    <small>2021-2023</small>
+                                    <h2>Homecenter</h2>
+                                    <small>2020-2020</small>
                                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
                                 </aside>
                             </aside>
