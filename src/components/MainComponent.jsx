@@ -84,6 +84,25 @@ function MainComponent() {
         
 
     ];
+    const COURSES =[
+        {
+            img:'/src/assets/coursera.svg',
+            name: 'Front-End Web Development with React'
+        },
+        {
+            img:'/src/assets/udemy.jpg',
+            name: 'The Complete JavaScript Course 2021: From Zero to Expert!'
+        },
+        {
+            img:'/src/assets/udemy.jpg',
+            name: 'React - The Complete Guide (incl Hooks, React Router, Redux)'
+        },
+        {
+            img:'/src/assets/udemy.jpg',
+            name: 'The Modern Angular Bootcamp'
+        },
+
+    ]
     return (
         <>
             <section className="container-content">
@@ -154,6 +173,36 @@ function MainComponent() {
                             </aside>
                         </article>
                     </section>
+                    <section className="courses">
+                    <h2><span>04.</span> Activities and Courses</h2>
+                    <section className="certifications">
+                        <article className="certifications-slide">
+                        {COURSES.map(course => {
+                            return(
+                                <figure>
+                                    <img src={course.img} alt={course.name} />
+                                    <figcaption>
+                                        {course.name}
+                                    </figcaption>
+                                </figure>
+                            )
+                        })}
+                        </article>
+                        <article className="certifications-slide">
+                        {COURSES.map(course => {
+                            return(
+                                <figure>
+                                    <img src={course.img} alt={course.name} />
+                                    <figcaption>
+                                        {course.name}
+                                    </figcaption>
+                                </figure>
+                            )
+                        })}
+                        </article>
+                    </section>
+                    </section>
+
                     <section className="contact">
 
                     </section>
