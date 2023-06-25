@@ -179,7 +179,7 @@ function MainComponent() {
                         <article className="certifications-slide">
                         {COURSES.map(course => {
                             return(
-                                <figure>
+                                <figure key={course.name}>
                                     <img src={course.img} alt={course.name} />
                                     <figcaption>
                                         {course.name}
@@ -191,7 +191,7 @@ function MainComponent() {
                         <article className="certifications-slide">
                         {COURSES.map(course => {
                             return(
-                                <figure>
+                                <figure key={course.name}>
                                     <img src={course.img} alt={course.name} />
                                     <figcaption>
                                         {course.name}
