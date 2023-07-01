@@ -1,4 +1,5 @@
 import IconComponent from "./IconComponent"
+import { InlineWidget } from "react-calendly";
 
 function MainComponent() {
     const SKILLS= [
@@ -202,9 +203,48 @@ function MainComponent() {
                         </article>
                     </section>
                     </section>
+                    <section className="portfolio">
+                    <h2><span>05. </span> Portfolio</h2>
+                        <article className="project">
+                            <aside>
+                            <i className="fa-regular fa-folder"></i>
+                            <i className="fa-brands fa-github"></i>
+                            </aside>
+                            <h3>Project 1</h3>
+                            <p>Small description</p>
+                            <section className="tags">
+                                <aside>Typescript</aside>
+                                <aside>Typescript</aside>
+                            </section>
+                        </article>
+                        <article className="project">
+                            <aside>
+                            <i className="fa-regular fa-folder"></i>
+                            <i className="fa-brands fa-github"></i>
+                            </aside>
+                            <h3>Project 2</h3>
+                            <p>Small description</p>
+                            <section className="tags">
+                                <aside>Typescript</aside>
+                                <aside>Typescript</aside>
+                            </section>
+                        </article>
+                        <article className="project">
+                            <aside>
+                            <i className="fa-regular fa-folder"></i>
+                            <i className="fa-brands fa-github"></i>
+                            </aside>
+                            <h3>Project 3</h3>
+                            <p>Small description</p>
+                            <section className="tags">
+                                <aside>Typescript</aside>
+                                <aside>Typescript</aside>
+                            </section>
+                        </article>
+                    </section>
 
-                    <section className="contact">
-
+                    <section className="contact" id="contact">
+                        <InlineWidget url="https://calendly.com/santiagorave98"/>
                     </section>
                 </section>
             </section>
