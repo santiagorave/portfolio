@@ -109,12 +109,11 @@ function MainComponent() {
             <section className="container-content">
                 <section className="content">
 
-                    <section className="about">
+                    <section id="about" className="about">
                         <h2><span>02.</span> About Me</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti aperiam doloribus non similique numquam neque porro illo molestiae magnam, quos maiores perspiciatis eligendi ducimus iusto hic eaque cumque, rerum accusamus.</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus suscipit dolores libero omnis asperiores. Sequi nemo blanditiis laborum eum! Ea, quia dignissimos iste atque et soluta quas voluptate nemo optio.</p>
+                    <p>Computer Engineer from the University of La Sabana (Colombia). Creative and passionate about learning new technologies and software development. With interest in frontend development. With the ability to adapt, solve problems and characterized by being persistent.</p>
                     </section>
-                    <section className="skills">
+                    <section id="skills" className="skills">
                         <h2><span>03.</span> Skills</h2>
                         <section className="gallery-section">
                             <h3>Client side</h3>
@@ -145,7 +144,7 @@ function MainComponent() {
                             </article>
                         </section>
                     </section>
-                    <section className="experience">
+                    <section id="experience" className="experience">
                         <h2><span>04.</span> Working Career</h2>
                         <article className="timeline">
                             <aside className="containerCW c-left">
@@ -153,7 +152,8 @@ function MainComponent() {
                                 <aside className="titles">
                                     <h2>Avianca</h2>
                                     <small>2021-2023</small>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
+                                    <p>Development of user stories worked in an agile and scrum environment, focused on improving the user experience and frontend improvements on the Avianca.com website</p>
+                                    <p><span  style={{color:'#00d1c7'}}>Technologies:</span> Javascript, Angular, Adobe Experience Manager (AEM), LESS,Java, React,Redux</p>
                                 </aside>
                             </aside>
                             <aside className="containerCW c-right">
@@ -161,7 +161,8 @@ function MainComponent() {
                                 <aside className="titles">
                                     <h2>Cala Analytics</h2>
                                     <small>2020-2021</small>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
+                                    <p>Analytical Consultant focused on data analysis and solution development</p>
+                                    <p><span  style={{color:'#00d1c7'}}>Technologies:</span> Angular,React</p>
                                 </aside>
                             </aside>
                             <aside className="containerCW c-left">
@@ -169,12 +170,13 @@ function MainComponent() {
                                 <aside className="titles">
                                     <h2>Homecenter</h2>
                                     <small>2020-2020</small>
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum deleniti assumenda molestias quas! Suscipit itaque ex repellendus tempora explicabo facere.</p>
+                                    <p>Information management (BI) intern in charge of extracting, storing and analyzing more than 30TB of information with the purpose of delivering key information such as KPIs for strategic marketing decisions.</p>
+                                    <p><span style={{color:'#00d1c7'}}>Technologies:</span> SQL, Oracle Database, Power BI</p>
                                 </aside>
                             </aside>
                         </article>
                     </section>
-                    <section className="courses">
+                    <section id="courses" className="courses">
                     <h2><span>04.</span> Activities and Courses</h2>
                     <section className="certifications">
                         <article className="certifications-slide">
@@ -203,42 +205,39 @@ function MainComponent() {
                         </article>
                     </section>
                     </section>
-                    <section className="portfolio">
-                    <h2><span>05. </span> Portfolio</h2>
+                    <section id="portfolio" className="portfolio">
+                    <h2><span>05. </span> Some projects</h2>
                         <article className="project">
                             <aside>
-                            <i className="fa-regular fa-folder"></i>
+                            <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-regular fa-folder"></i></a>
                             <i className="fa-brands fa-github"></i>
                             </aside>
-                            <h3>Project 1</h3>
-                            <p>Small description</p>
+                            <h3>Moviepedia</h3>
+                            <p>All the movie/series information you need in one place</p>
                             <section className="tags">
-                                <aside>Typescript</aside>
-                                <aside>Typescript</aside>
+                                <aside>React</aside>
                             </section>
                         </article>
                         <article className="project">
                             <aside>
-                            <i className="fa-regular fa-folder"></i>
+                               <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-regular fa-folder"></i></a> 
                             <i className="fa-brands fa-github"></i>
                             </aside>
-                            <h3>Project 2</h3>
-                            <p>Small description</p>
+                            <h3>Stays</h3>
+                            <p>PHP project to look different places/accommodations to stay in Vancouver</p>
                             <section className="tags">
-                                <aside>Typescript</aside>
-                                <aside>Typescript</aside>
+                                <aside>PHP</aside>
                             </section>
                         </article>
                         <article className="project">
                             <aside>
-                            <i className="fa-regular fa-folder"></i>
+                          <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-regular fa-folder"></i></a>  
                             <i className="fa-brands fa-github"></i>
                             </aside>
-                            <h3>Project 3</h3>
-                            <p>Small description</p>
+                            <h3>Weather</h3>
+                            <p>Wheater app in Vue.js</p>
                             <section className="tags">
-                                <aside>Typescript</aside>
-                                <aside>Typescript</aside>
+                                <aside>Vue.js</aside>
                             </section>
                         </article>
                     </section>

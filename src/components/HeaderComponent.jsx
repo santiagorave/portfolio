@@ -1,3 +1,4 @@
+
 function HeaderComponent() {
     return (
         <>
@@ -11,11 +12,11 @@ function HeaderComponent() {
                             <span className="line line3"></span>
                         </div>
                         <div className="menu-items">
-                            <li><a href="#">01. About</a></li>
-                            <li><a href="#">02. Skills</a></li>
-                            <li><a href="#">03. Portfolio</a></li>
-                            <li><a href="#">04. Career</a></li>
-                            <li><a href="#">05. Contact</a></li>
+                            <li><a href="#about">01. About</a></li>
+                            <li><a href="#skills">02. Skills</a></li>
+                            <li><a href="#portfolio">03. Portfolio</a></li>
+                            <li><a href="#experience">04. Career</a></li>
+                            <li><a href="#contact">05. Contact</a></li>
                         </div>
                     </div>
                 </div>
@@ -33,10 +34,10 @@ function HeaderComponent() {
 
             <section className="banner">
                         <ul>
-                            <li><a href="#"><i className="fa-brands fa-github"></i></a></li>
-                            <li><a href="#"><i className="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i className="fa-solid fa-envelope"></i></a></li>
-                            <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="blank" href="https://github.com/santiagorave/"><i className="fa-brands fa-github"></i></a></li>
+                            <li><a target="blank" href="https://www.linkedin.com/in/santiago-ramirez-velasquez/"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="mailto:santiagorave98@gmail.com"><i className="fa-solid fa-envelope"></i></a></li>
+                            <li><a target="blank" href="https://www.instagram.com/santiagor_/"><i className="fa-brands fa-instagram"></i></a></li>
                             <li><span>asd</span></li>
                         </ul>
                 <article>
@@ -49,8 +50,8 @@ function HeaderComponent() {
                             <img src="/src/assets/img/me.jpeg" alt="me" />
                         </figure>
                     </aside>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt repellat architecto. Maiores, ducimus! Voluptatibus.</p>
-                    <button>Contact Me</button>
+                    <p>With experience in different languages and technologies, Always looking for new challenges and opportunities</p>
+                    <a href="#contact">Contact Me</a>
                 </article>
             </section>
             </section>
