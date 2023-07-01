@@ -452,6 +452,12 @@ body {
     flex-direction: column;
     row-gap: 2vh;
 
+    >section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2vh;
+    }
+
     .project {
       background-color: #27363d;
       padding: 10px;
@@ -494,7 +500,176 @@ body {
     padding-top: 2vh;
     display: flex;
     justify-content: center;
+    width: 100%;
+    .widget {
+    width: 100%;
+
+    }
   }
 
 
+}
+
+@media (min-width: 700px) {
+
+  .banner-main {
+    p {
+    font-size: 40px; 
+    }
+    span {
+    font-size: 25px; 
+
+    }
+    img {
+      width: 15vh;
+      height: 15vh;
+    }
+  }
+  .banner {
+    flex-direction: row;
+    justify-content: center;
+    >article {
+      >p {
+    font-size: 20px; 
+
+      }
+    }
+    ul {
+      flex-direction: column;
+      width: 10%;
+    }
+  }
+
+  .portfolio{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    >section {
+      flex-direction: row;
+      column-gap: 10vh;
+    }
+
+    .project {
+      transition: .4s;
+      &:hover{
+        transform: scale(1.1);
+      }
+      .tags {
+        aside {
+          width: 7vw;
+        }
+      }
+    }
+   
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  .about,
+  .skills,
+  .experience,
+  .courses,
+  .portfolio {
+    h2 {
+      font-size: 35px;
+
+      span {
+        color: #00d1c7;
+      }
+    }
+  }
+  .mobile {
+    display: none;
+  }
+  .bar {
+    display: flex;
+    padding: 5vh;
+    ul {
+      li {
+        display: flex;
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          transition: .3s;
+            &:hover {
+              color: white;
+            }
+        }
+      }
+    }
+  }
+
+  .banner-main {
+    p {
+    font-size: 60px; 
+    }
+    span {
+    font-size: 35px; 
+
+    }
+    img {
+      width: 30vh;
+      height: 30vh;
+    }
+  }
+
+  ul {
+    li {
+      a{
+        i{
+          font-size: 40px;
+          transition: .4s;
+          &:hover {
+            color: white;
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  .about {
+    font-size: 25px;
+    padding-top: 7vh;
+  }
+
+  .banner {
+    >article {
+      a{
+        width: 20%;
+        height: 6vh;
+        transition: .4s;
+        &:hover{
+          background-color: white;
+        }
+      }
+    }
+  }
+  .skills {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    >section {
+      display: flex;
+      column-gap: 4vh;
+    }
+    figure {
+      width: 25vh;
+      height: 25vh;
+      transition: .3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+      img {
+        width: 15vh;
+        height: 15vh;
+      }
+    }
+  }
+
+  .experience {
+    padding-bottom: 10vh;
+  }
+  .timeline {
+    row-gap: 5vh;
+  }
 }

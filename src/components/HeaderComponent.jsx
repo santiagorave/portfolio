@@ -23,11 +23,11 @@ function HeaderComponent() {
             </nav>
             <nav className="bar">
                 <ul>
-                    <li><a href="#">01. ABOUT</a></li>
-                    <li><a href="#">02. Skills</a></li>
-                    <li><a href="#">03. Portfolio</a></li>
-                    <li><a href="#">04. Career</a></li>
-                    <li><a href="#">05. Contact</a></li>
+                <li><a href="#about">01. About</a></li>
+                            <li><a href="#skills">02. Skills</a></li>
+                            <li><a href="#portfolio">03. Portfolio</a></li>
+                            <li><a href="#experience">04. Career</a></li>
+                            <li><a href="#contact">05. Contact</a></li>
                 </ul>
             </nav>
             <section className="banner-container">

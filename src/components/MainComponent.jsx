@@ -115,6 +115,8 @@ function MainComponent() {
                     </section>
                     <section id="skills" className="skills">
                         <h2><span>03.</span> Skills</h2>
+                        <section>
+
                         <section className="gallery-section">
                             <h3>Client side</h3>
                             <article className="gallery">
@@ -142,6 +144,7 @@ function MainComponent() {
                             {SKILLS.filter(skill=>skill.type=='others').map(skill=> <IconComponent key={skill.src} name={skill.name} src={skill.src}/>)}
              
                             </article>
+                        </section>
                         </section>
                     </section>
                     <section id="experience" className="experience">
@@ -207,6 +210,8 @@ function MainComponent() {
                     </section>
                     <section id="portfolio" className="portfolio">
                     <h2><span>05. </span> Some projects</h2>
+                    <section>
+
                         <article className="project">
                             <aside>
                             <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-regular fa-folder"></i></a>
@@ -235,15 +240,16 @@ function MainComponent() {
                             <i className="fa-brands fa-github"></i>
                             </aside>
                             <h3>Weather</h3>
-                            <p>Wheater app in Vue.js</p>
+                            <p>Wheater app in Vue.js. Check the weather of any city in the world</p>
                             <section className="tags">
                                 <aside>Vue.js</aside>
                             </section>
                         </article>
                     </section>
+                    </section>
 
                     <section className="contact" id="contact">
-                        <InlineWidget url="https://calendly.com/santiagorave98"/>
+                        <InlineWidget className="widget" url="https://calendly.com/santiagorave98"/>
                     </section>
                 </section>
             </section>
