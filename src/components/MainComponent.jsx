@@ -213,42 +213,65 @@ function MainComponent() {
                     <section>
 
                         <article className="project">
-                            <aside>
-                            <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-regular fa-folder"></i></a>
-                            <i className="fa-brands fa-github"></i>
-                            </aside>
+                            <section className="front">
+
+                           
                             <h3>Moviepedia</h3>
                             <p>All the movie/series information you need in one place</p>
                             <section className="tags">
                                 <aside>React</aside>
                             </section>
+                            </section>
+                            <section className="back">
+                            <aside className="icons">
+                            <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-regular fa-folder"></i></a>
+                           <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-brands fa-github"></i></a> 
+                            </aside>
+                                <img src="/src/assets/movipedia.png" alt="img" />
+                            </section>
                         </article>
                         <article className="project">
-                            <aside>
-                               <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-regular fa-folder"></i></a> 
-                            <i className="fa-brands fa-github"></i>
-                            </aside>
+                            <section className="front">
+
+                   
                             <h3>Stays</h3>
                             <p>PHP project to look different places/accommodations to stay in Vancouver</p>
                             <section className="tags">
                                 <aside>PHP</aside>
                             </section>
+                            </section>
+                            <section className="back">
+                            <aside className="icons">
+                            <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-regular fa-folder"></i></a> 
+                            <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-brands fa-github"></i></a>
+                            </aside>
+                            <img src="/src/assets/airbnb.png" alt="" />
+                       
+                            </section>
                         </article>
                         <article className="project">
-                            <aside>
-                          <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-regular fa-folder"></i></a>  
-                            <i className="fa-brands fa-github"></i>
-                            </aside>
+                            <section className="front">
                             <h3>Weather</h3>
                             <p>Wheater app in Vue.js. Check the weather of any city in the world</p>
                             <section className="tags">
                                 <aside>Vue.js</aside>
+                            </section>
+                            </section>
+                            <section className="back">
+                            <aside className="icons">
+                          <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-regular fa-folder"></i></a>  
+                            <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-brands fa-github"></i></a>
+                            </aside>
+                            <img src="/src/assets/weather.png" alt="" />
+
                             </section>
                         </article>
                     </section>
                     </section>
 
                     <section className="contact" id="contact">
+                    <h2><span>06.</span> Contact</h2>
+
                         <InlineWidget className="widget" url="https://calendly.com/santiagorave98"/>
                     </section>
                 </section>
