@@ -739,4 +739,16 @@ body {
       }
     }
   }
+  .certifications {
+
+    .certifications-slide {
+      figure {
+        flex-direction: row;
+        column-gap: 4vh;
+        figcaption {
+          width: 10vw;
+        }
+      }
+    }
+  }
 }
