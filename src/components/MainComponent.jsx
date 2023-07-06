@@ -5,81 +5,81 @@ function MainComponent() {
     const SKILLS= [
         {
             name: 'React',
-            src: '../assets/react.svg',
+            src: '/react.svg',
             type:'front'
         },
         {
             name: 'Angular',
-            src: '../assets/angular.svg',
+            src: '/angular.svg',
             type:'front',
 
         },
         {
             name: 'Javascript',
-            src: '../assets/javascript.svg',
+            src: '/javascript.svg',
             type:'front'
 
         },
         {
             name: 'Vue.js',
-            src: '../assets/Vue.svg',
+            src: '/Vue.svg',
             type:'front'
 
         },
         {
             name: 'JQuery',
-            src: '../assets/JQuery.svg',
+            src: '/JQuery.svg',
             type:'front'
 
         },
         {
             name: 'Bootstrap',
-            src: '../assets/bootstrap.svg',
+            src: '/bootstrap.svg',
             type:'front'
         },
         {
             name: 'Node',
-            src: '../assets/Node.svg',
+            src: '/Node.svg',
             type:'server'
 
         },
         {
             name: 'PHP',
-            src: '../assets/php.svg',
+            src: '/php.svg',
             type:'server'
         },
         {
             name: 'My SQL',
-            src: '../assets/mysql.svg',
+            src: '/mysql.svg',
             type:'db'
     
         },
         {
             name: 'MongoDB',
-            src: '../assets/MongoDB.svg',
+            src: '/MongoDB.svg',
             type:'db'
     
         },
         {
             name: 'Oracle',
-            src: '../assets/sql.svg',
+            src: '/sql.svg',
             type:'db'
         },
         {
             name: 'Git',
-            src: '../assets/git.svg',
+            src: '/git.svg',
             type:'others'
     
         },
         {
             name: 'AEM',
-            src: '../assets/aem.svg',
+            src: '/aem.svg',
             type:'others'
     
         },
         {
             name: 'Azure DevOps',
-            src: '../assets/azure.svg',
+            src: '/azure.svg',
             type:'others'
         }
         
@@ -87,19 +87,19 @@ function MainComponent() {
     ];
     const COURSES =[
         {
-            img:'../assets/coursera.svg',
+            img:'/coursera.svg',
             name: 'Front-End Web Development with React'
         },
         {
-            img:'../assets/udemy.jpg',
+            img:'/udemy.jpg',
             name: 'The Complete JavaScript Course 2021: From Zero to Expert!'
         },
         {
-            img:'../assets/udemy.jpg',
+            img:'/udemy.jpg',
             name: 'React - The Complete Guide (incl Hooks, React Router, Redux)'
         },
         {
-            img:'../assets/udemy.jpg',
+            img:'/udemy.jpg',
             name: 'The Modern Angular Bootcamp'
         },
 
@@ -151,7 +151,7 @@ function MainComponent() {
                         <h2><span>04.</span> Working Career</h2>
                         <article className="timeline">
                             <aside className="containerCW c-left">
-                                <img src="../assets/Avianca_Logo.png" alt="Avianca" />
+                                <img src="/Avianca_Logo.png" alt="Avianca" />
                                 <aside className="titles">
                                     <h2>Avianca</h2>
                                     <small>2021-2023</small>
@@ -160,7 +160,7 @@ function MainComponent() {
                                 </aside>
                             </aside>
                             <aside className="containerCW c-right">
-                            <img src="../assets/cala.png" alt="" />
+                            <img src="/cala.png" alt="" />
                                 <aside className="titles">
                                     <h2>Cala Analytics</h2>
                                     <small>2020-2021</small>
@@ -169,7 +169,7 @@ function MainComponent() {
                                 </aside>
                             </aside>
                             <aside className="containerCW c-left">
-                            <img src="../assets/hc.jpg" alt="" />
+                            <img src="/hc.jpg" alt="" />
                                 <aside className="titles">
                                     <h2>Homecenter</h2>
                                     <small>2020-2020</small>
@@ -227,7 +227,7 @@ function MainComponent() {
                             <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-regular fa-folder"></i></a>
                            <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-brands fa-github"></i></a> 
                             </aside>
-                                <img src="../assets/movipedia.png" alt="img" />
+                                <img src="/movipedia.png" alt="img" />
                             </section>
                         </article>
                         <article className="project">
@@ -245,7 +245,7 @@ function MainComponent() {
                             <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-regular fa-folder"></i></a> 
                             <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-brands fa-github"></i></a>
                             </aside>
-                            <img src="../assets/airbnb.png" alt="" />
+                            <img src="/airbnb.png" alt="" />
                        
                             </section>
                         </article>
@@ -262,7 +262,7 @@ function MainComponent() {
                           <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-regular fa-folder"></i></a>  
                             <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-brands fa-github"></i></a>
                             </aside>
-                            <img src="../assets/weather.png" alt="" />
+                            <img src="/weather.png" alt="" />
 
                             </section>
                         </article>
