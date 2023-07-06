@@ -47,7 +47,7 @@ function HeaderComponent() {
                         <span>Software Developer</span>
                         </aside>
                         <figure>
-                            <img src="/src/assets/img/me.jpeg" alt="me" />
+                            <img src="../assets/img/me.jpeg" alt="me" />
                         </figure>
                     </aside>
                     <p>With experience in different languages and technologies, Always looking for new challenges and opportunities</p>

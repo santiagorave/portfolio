@@ -5,81 +5,81 @@ function MainComponent() {
     const SKILLS= [
         {
             name: 'React',
-            src: '/src/assets/react.svg',
+            src: '../assets/react.svg',
             type:'front'
         },
         {
             name: 'Angular',
-            src: '/src/assets/angular.svg',
+            src: '../assets/angular.svg',
             type:'front',
 
         },
         {
             name: 'Javascript',
-            src: '/src/assets/javascript.svg',
+            src: '../assets/javascript.svg',
             type:'front'
 
         },
         {
             name: 'Vue.js',
-            src: '/src/assets/Vue.svg',
+            src: '../assets/Vue.svg',
             type:'front'
 
         },
         {
             name: 'JQuery',
-            src: '/src/assets/JQuery.svg',
+            src: '../assets/JQuery.svg',
             type:'front'
 
         },
         {
             name: 'Bootstrap',
-            src: '/src/assets/bootstrap.svg',
+            src: '../assets/bootstrap.svg',
             type:'front'
         },
         {
             name: 'Node',
-            src: '/src/assets/Node.svg',
+            src: '../assets/Node.svg',
             type:'server'
 
         },
         {
             name: 'PHP',
-            src: '/src/assets/php.svg',
+            src: '../assets/php.svg',
             type:'server'
         },
         {
             name: 'My SQL',
-            src: '/src/assets/mysql.svg',
+            src: '../assets/mysql.svg',
             type:'db'
     
         },
         {
             name: 'MongoDB',
-            src: '/src/assets/MongoDB.svg',
+            src: '../assets/MongoDB.svg',
             type:'db'
     
         },
         {
             name: 'Oracle',
-            src: '/src/assets/sql.svg',
+            src: '../assets/sql.svg',
             type:'db'
         },
         {
             name: 'Git',
-            src: '/src/assets/git.svg',
+            src: '../assets/git.svg',
             type:'others'
     
         },
         {
             name: 'AEM',
-            src: '/src/assets/aem.svg',
+            src: '../assets/aem.svg',
             type:'others'
     
         },
         {
             name: 'Azure DevOps',
-            src: '/src/assets/azure.svg',
+            src: '../assets/azure.svg',
             type:'others'
         }
         
@@ -87,19 +87,19 @@ function MainComponent() {
     ];
     const COURSES =[
         {
-            img:'/src/assets/coursera.svg',
+            img:'../assets/coursera.svg',
             name: 'Front-End Web Development with React'
         },
         {
-            img:'/src/assets/udemy.jpg',
+            img:'../assets/udemy.jpg',
             name: 'The Complete JavaScript Course 2021: From Zero to Expert!'
         },
         {
-            img:'/src/assets/udemy.jpg',
+            img:'../assets/udemy.jpg',
             name: 'React - The Complete Guide (incl Hooks, React Router, Redux)'
         },
         {
-            img:'/src/assets/udemy.jpg',
+            img:'../assets/udemy.jpg',
             name: 'The Modern Angular Bootcamp'
         },
 
@@ -151,7 +151,7 @@ function MainComponent() {
                         <h2><span>04.</span> Working Career</h2>
                         <article className="timeline">
                             <aside className="containerCW c-left">
-                                <img src="/src/assets/Avianca_Logo.png" alt="Avianca" />
+                                <img src="../assets/Avianca_Logo.png" alt="Avianca" />
                                 <aside className="titles">
                                     <h2>Avianca</h2>
                                     <small>2021-2023</small>
@@ -160,7 +160,7 @@ function MainComponent() {
                                 </aside>
                             </aside>
                             <aside className="containerCW c-right">
-                            <img src="/src/assets/cala.png" alt="" />
+                            <img src="../assets/cala.png" alt="" />
                                 <aside className="titles">
                                     <h2>Cala Analytics</h2>
                                     <small>2020-2021</small>
@@ -169,7 +169,7 @@ function MainComponent() {
                                 </aside>
                             </aside>
                             <aside className="containerCW c-left">
-                            <img src="/src/assets/hc.jpg" alt="" />
+                            <img src="../assets/hc.jpg" alt="" />
                                 <aside className="titles">
                                     <h2>Homecenter</h2>
                                     <small>2020-2020</small>
@@ -227,7 +227,7 @@ function MainComponent() {
                             <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-regular fa-folder"></i></a>
                            <a target="blank" href="https://github.com/santiagorave/projectJS"><i className="fa-brands fa-github"></i></a> 
                             </aside>
-                                <img src="/src/assets/movipedia.png" alt="img" />
+                                <img src="../assets/movipedia.png" alt="img" />
                             </section>
                         </article>
                         <article className="project">
@@ -245,7 +245,7 @@ function MainComponent() {
                             <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-regular fa-folder"></i></a> 
                             <a target="blank" href="https://github.com/natttara/FinalProjectForMay"><i className="fa-brands fa-github"></i></a>
                             </aside>
-                            <img src="/src/assets/airbnb.png" alt="" />
+                            <img src="../assets/airbnb.png" alt="" />
                        
                             </section>
                         </article>
@@ -262,7 +262,7 @@ function MainComponent() {
                           <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-regular fa-folder"></i></a>  
                             <a target="blank" href="https://github.com/seonlim/Weather-Lim-Santiago-Joan"><i className="fa-brands fa-github"></i></a>
                             </aside>
-                            <img src="/src/assets/weather.png" alt="" />
+                            <img src="../assets/weather.png" alt="" />
 
                             </section>
                         </article>
